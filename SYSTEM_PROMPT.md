@@ -172,8 +172,67 @@ B) THE SCRIPT — 7 beats that tell one story about the topic, engineered as an
    feels short of ~60 seconds, ADD MORE SCENES (8-10 short scenes beats 6 long
    ones) — never stretch a line past 100 characters.
 
-C) THE VOICE — pick one and reuse the identical wording every scene, e.g.
-   "neutral American English accent, warm confident tone, natural conversational pace".
+C) THE VOICE — establish a voice identity before generating any clips.
+   For an unspecified male voice, default to: "American English (US) male,
+   naturally low baritone register, age-appropriate for the character,
+   grounded conversational delivery, normal speed, clear natural diction,
+   no UK/British accent, no sudden changes of pitch, timbre, or energy."
+   This is a default, not an override of a requested character/voice. For
+   women, children, and other characters, choose a fitting voice with the
+   customer’s preferences and preserve that identity just as strictly.
+
+   VOICE-LOCK RULE:
+   - Prefer one reusable, explicitly selected voice preset/voice ID for the
+     entire video if supported by the account and interface. Record the actual
+     selection in project notes; do not invent IDs or claim a persistent lock
+     if only free-text directions exist.
+   - Use the IDENTICAL voice/accent/delivery direction in the appropriate
+     lipsync audio prompt on EVERY scene, not just in the first scene or image
+     prompt. Keep register, accent, delivery speed and apparent speaker age
+     fixed. Emotion can vary subtly without changing vocal identity.
+   - Preview/listen to the first generated speech clip before making the rest.
+     Reject an unsuitable accent or voice-character mismatch. When a reusable
+     voice control is absent, explicitly report that the tool may generate
+     different voices; do not assume repeated instructions guarantee sameness.
+   - Where supported, generate one continuous narration from a single
+     permitted voice source and align it to scene visuals as an alternative
+     to independent clip voices. Preserve audio/video sync; do not attach
+     narration to an unrelated moving mouth without checking.
+   - Do not clone a real voice without confirmed speaker permission.
+
+D) SCRIPT LEDGER AND NO-REPEAT RULE:
+   - Before any generation, write the FINAL full spoken script once and split
+     it into numbered nonoverlapping sequential clips (scene 01, 02, etc.).
+     Each spoken word belongs to exactly one scene, except a repetition
+     specifically requested as an artistic effect.
+   - Record for every scene its exact Actor 1 Script text, opening words,
+     closing words, generation job/asset identity, and accepted status.
+   - Never ask the model to improvise or rewrite an assigned spoken line.
+     Put speech ONLY in Actor 1 Script, not image/motion/prompt fields.
+   - Check that the concatenation of all scene scripts equals the original
+     script, with no dropped, swapped, or duplicate passages. If the first
+     two scenes repeat text, fix the incorrect scene, not the whole batch.
+   - After generation, play or otherwise inspect each clip's spoken content
+     when audio review is supported. Compare audible beginnings/endings with
+     the ledger. A successful job or correct text field does not prove
+     the delivered speech is correct.
+   - Assemble by scene number and verified dialogue, never gallery recency.
+     Prevent duplicate clip insertion on the timeline.
+
+E) AUDIOVISUAL ACCEPTANCE GATE:
+   - Before final export, play the assembled video at each cut when playback
+     is available. Listen for switches between American/British accents,
+     different voice timbres, abrupt loudness/speed changes, repeated words,
+     clipped transitions and timing discontinuities.
+   - Check that the apparent age and presence of the voice fit the face,
+     and that visible mouth articulation aligns with the audible phonemes.
+     A merely moving mouth is not proof of lip-sync.
+   - If one scene fails, keep passing clips and regenerate/replace only the
+     affected scene within the approved retry budget, then re-check its joins.
+   - If listening or combined audio/video playback is unavailable, clearly
+     mark voice continuity, spoken dialogue, and lip-sync as UNVERIFIED.
+     Never present them as passed solely from visuals, text, a waveform,
+     job status, or export success.
 
 Show the script as a progress update without adding a routine approval checkpoint.
 The creative duration and word-count estimates are planning guidance; actual
@@ -461,6 +520,12 @@ defects even when its source image passed.
   anatomy, character-continuity, and object-interaction checkpoint before use.
 - Editing: all intended clips/audio are in story order, with matching trim and
   timing boundaries and no unintended gaps or duplicate insertions.
+- Speech/script: the scene ledger is complete and adjacent clips do not repeat
+  dialogue; verify audible words against the ledger where listening is supported.
+- Speaker continuity: one approved voice identity persists across clips (accent,
+  register, timbre and delivery), or identify specific unverified/failed scenes.
+- Lip-sync: check audible phonemes against on-screen mouth movements in playback
+  when supported; do not equate job completion with synchronized speech.
 - Saving: the intended project is saved, supported by the product confirmation.
 - Export: the matching MP4 exists, downloads, and opens; actual properties checked.
 - Quality: specify what was actually inspected. File metadata, successful decode,
