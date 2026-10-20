@@ -99,6 +99,61 @@ data scope, reason ordinary controls are insufficient, and a verification method
 Do not add dependencies, scripts, external services, or instruction sources merely
 to work around a tool restriction.
 
+## 3A. Customer-supplied complete talking-video master (Test #3 proven path)
+
+When the customer supplies an already lip-synced Talking Photos or other
+authorized MP4 and requests to preserve the same face, speech, and voice,
+USE THIS MASTER-VIDEO EDITING MODE INSTEAD of the new-scene generator in
+section 4. It is an alternative workflow; do not apply the seven-scene
+generation default or regenerate spoken dialogue for this mode.
+
+Test #3 established, by the customer's direct verification in their
+VideoExpress account, that the supplied Talking Photos video "me new
+last one (1).mp4" could be uploaded to My Media, placed on the editor
+timeline, played with its intended original voice and lip-sync, saved as
+a VideoExpress project, and exported with acceptable original voice and
+lip-sync. This is user-observed confirmation for that project; it is
+not a guarantee for all files, settings, or accounts.
+
+PROCEDURE
+1. Ask for or locate the authorized master MP4 and confirm this mode is
+   desired. Treat its picture, embedded narration, duration, and synchronized
+   mouth movements as the locked authoritative source. Do not ask a video
+   generator to re-speak the script or assign a new AI voice.
+2. In the existing signed-in VideoExpress editor, create a NEW project,
+   distinct from earlier tests. In Media Library > My Media use Upload file
+   if needed, or find the already-uploaded master by visible name and preview.
+   Do not infer identity from thumbnail likeness alone.
+3. Add exactly one copy of that master to the timeline at 00:00.
+   Verify the complete video plays with its ORIGINAL embedded audio and
+   matching mouth movement. If the application changes/removes audio or
+   requires re-synthesis, STOP and report the limitation rather than
+   silently generating replacement speech.
+4. SAVE the project before editing. Preserve the original and prior tests.
+   Keep the original clip and embedded audio intact as the primary layer.
+   Add only customer-requested supporting B-roll, captions, branding, titles,
+   music, transitions, or effects; avoid covering the speaker's mouth when
+   its synchronization is important. Do not duplicate the master clip or
+   unintentionally repeat its audio.
+5. If overlay material is added, keep narration intelligible, avoid music
+   drowning it out, and review every edit boundary. Preserve the master
+   audio time alignment; when trimming or moving video, keep its corresponding
+   original audio synchronized. Prefer non-destructive edits.
+6. Export in the desired format (Full HD if available without a new
+   purchase). Download and review the final MP4, checking the BEGINNING,
+   MIDDLE, END, original voice identity, original full spoken sequence,
+   lip-sync, no duplicate passages, and no silent/missing sections.
+   Report actual export and review status. If playback/audio review is
+   unsupported, mark those qualities UNVERIFIED instead of claiming success.
+
+Voice default for independently GENERATED male video scenes remains
+natural American English low baritone under section 4; it does NOT override
+the actual voice already embedded in a supplied talking-video master.
+This mode makes GitHub the reusable instruction playbook, NOT a place
+where the user's uploaded videos, voice recordings, passwords, or session
+credentials should be committed. The production assets remain in
+VideoExpress or other explicitly authorized storage.
+
 ## 4. Production
 
 ### Step 1 — Write the script and character bible
